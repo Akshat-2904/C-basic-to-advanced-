@@ -1,11 +1,11 @@
-﻿/*#include"iostream"
+﻿#include"iostream"
 #include"Log.h"
 #include"print"
 
-//
-//static int s_Level = 1;// ststic ensures that this varible is only for this file
+
+//static int s_Level = 1; static ensures that this varible is only for this file
 //// always use static if these variables are global and are not going be used else where
-////in another file
+//in another file
 
 struct Entity {
 
@@ -17,12 +17,12 @@ struct Entity {
 		std::printf("%d", y);
 
 	}
-Use static functions when:
+//Use static functions when:
 
-Function doesn’t depend on object data
-Utility/helper functions (math, logging, config)
-Factory methods
-Shared behavior across all objects
+//Function doesn’t depend on object data
+//Utility/helper functions (math, logging, config)
+//Factory methods
+//Shared behavior across all objects
 
 class Logger {
 public:
@@ -33,7 +33,7 @@ public:
 
 
 
- static int main() ensure that this function will be only available to this file
+ static int main() //ensure that this function will be only available to this file
 {
 	Entity en;
 	en.x = 10;
@@ -48,7 +48,7 @@ public:
 	return 0;
 	Logger::log("Game started");
 
-}*/
+}
 
 // ===== Example: Static vs Non-Static in Unreal-style =====
 
