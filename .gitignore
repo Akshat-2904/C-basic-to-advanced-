@@ -1,0 +1,69 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build folders
+# =========================
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+bin/
+obj/
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# =========================
+# Executables / binaries
+# =========================
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.pdb
+*.ilk
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
+
+# =========================
+# Clangd / IntelliSense
+# =========================
+.cache/
+.clangd/
+
+# =========================
+# Python virtual envs (if mixed project)
+# =========================
+venv/
+.venv/
+__pycache__/
+*.pyc
