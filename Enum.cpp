@@ -1,4 +1,4 @@
-/*
+
 enum class Example :std::uint8_t
 {
     A, B, C
@@ -70,4 +70,4 @@ int main()
     Log.SetLevel(Log::LogLevel::LogLevelError);
     Log.Warning("ACE");
 }
-*/
+
