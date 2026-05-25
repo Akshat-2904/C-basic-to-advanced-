@@ -18,7 +18,7 @@ int main()
 	Vertices.push_back({ 1, 9, 4 });
 
 
-	for (const Vertex& v : Vertices)using const will avoid copying in v
+	for (const Vertex& v : Vertices)//using const will avoid copying in v
 		std::cout << v << std::endl;
 
 	Vertices.erase(Vertices.begin() + 1);
@@ -32,4 +32,4 @@ int main()
 
 
 }
- always pas array in function using &(ref)
+// always pas array in function using &(ref)
